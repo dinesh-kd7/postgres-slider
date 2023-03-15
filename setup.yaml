@@ -1,0 +1,14 @@
+users:
+  - name: slider
+    password: $POSTGRESQL_SLIDER_PASSWORD
+    role: superuser
+ databases:
+  - name: slider
+    owner: slider
+    tablespace:
+      - name: tb1
+        location: /appz/data/tb1
+    schemas:
+      - name: schema1
+        authorised_user: slider
+        search_path: true
