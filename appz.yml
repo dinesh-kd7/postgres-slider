@@ -1,7 +1,7 @@
 app:
     name: Postgres
     code: POSTGRES
-    notify: appz@cloudcontrol.com
+    notify: aramanan@ecloudcontrol.com
     
 build:
     version: 13.X
