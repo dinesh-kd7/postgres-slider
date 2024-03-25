@@ -14,6 +14,7 @@ deploy:
     context: appz-coder/DEV
     type: statefulset
     ingress: none
+    resources: large
     replicas: 1
     port:
     - 5432
